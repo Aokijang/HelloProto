@@ -9,10 +9,24 @@ body{
 .bg_navbar{
 	background: #25ADE8;
 	padding: 15px 20px;
+	color: white;
 }
-.nav-bar ul li{
+.nav-bar p{
 	display: inline-block;
-	padding: 5px 20px;
+	text-align: right;
+	margin: 12px 0;
+}
+.nav-bar{
+	text-align: right;
+	padding-right: 40px;
+}
+.nav-bar .username, .nav-bar .logo{
+	display: inline-block;
+	padding: 5px;
+}
+.logo img{
+	width: 45px;
+	border-radius: 100%;
 }
 .icon img{
 	width: 60px;
@@ -27,4 +41,24 @@ body{
 }
 .subtitle{
 	padding: 5px 0;
+}
+footer {
+  background: rgb(2, 67, 78);
+  color: rgb(247, 247, 247);
+  margin: 0 -15px;
+  padding: 15px 15px;
+}
+footer a {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(247, 247, 247);
+  background: rgb(102, 102, 102);
+  padding: 10px 30px;
+  margin: -10px 0 10px 0;
+}
+#footer-menu-container {
+  border-bottom: 1px solid white;
+}
+.repad{
+	padding: 30px;
 }

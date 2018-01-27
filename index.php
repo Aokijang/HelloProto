@@ -27,12 +27,14 @@
   						</div>
   					</div>
   					<div class="col-6 nav-bar">
-  						<div class="username">
-  							<p>Wendy Yansah</p>
-  						</div>
- 						<div class="logo">
- 							<img src="">
- 						</div> 						
+              <div class="row">
+                <div class="col-11 username">
+                  <p>Wendy Yansah</p>
+                </div>
+                <div class="col-1 logo" align="left">
+                  <img src="css/profile.png">
+                </div>  
+              </div>
    					</div>
   				</div>
   			</div>
@@ -40,10 +42,10 @@
 
       <footer>
         <div class="row">
-          <div class="col-5">
+          <div class="col-5 repad">
             <div class="row">
               <div class="col-12">
-                <p>Have ant tips for us? Click this button.</p>
+                <p>Have any tips for us? Click this button.</p>
               </div>
             </div>
             <div class="row">
