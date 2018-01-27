@@ -1,0 +1,12 @@
+@font-face{
+	font-family: proximanova;
+	src: "font/Mark Simonson - Proxima Nova Thin-webfont.ttf";
+}
+
+body{
+	margin: 0;
+}
+
+.nav-bar ul li{
+	display: inline-block;
+}
