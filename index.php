@@ -33,7 +33,7 @@
                 </div>
                 <div class="col-1 logo" align="left">
                   <img src="css/profile.png">
-                </div>  
+                </div>
               </div>
    					</div>
   				</div>
