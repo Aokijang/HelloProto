@@ -27,23 +27,14 @@
   						</div>
   					</div>
   					<div class="col-6 nav-bar">
-<<<<<<< HEAD
               <div class="row">
                 <div class="col-11 username">
                   <p>Wendy Yansah</p>
                 </div>
                 <div class="col-1 logo" align="left">
                   <img src="css/profile.png">
-                </div>  
+                </div>
               </div>
-=======
-  						<div class="username">
-  							<p>Wendy Yansah</p>
-  						</div>
- 						<div class="logo">
- 							<img src="">
- 						</div>
->>>>>>> a9900194763ca54c53303ac0b9e6bae986f18b38
    					</div>
   				</div>
   			</div>
