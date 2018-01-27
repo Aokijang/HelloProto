@@ -8,7 +8,7 @@
   margin-left: -15px;
   margin-right: -15px;
 }
-.row:before
+.row:before,
 .row:after{
   display: table;
   content: " ";
@@ -58,4 +58,21 @@
 }
 .col-12{
   width: 100%;
+}
+footer {
+  background: rgb(2, 67, 78);
+  color: rgb(247, 247, 247);
+  margin: 0 -15px;
+  padding: 15px 15px;
+}
+footer a {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(247, 247, 247);
+  background: rgb(102, 102, 102);
+  padding: 10px 30px;
+  margin: -10px 0 10px 0;
+}
+#footer-menu-container {
+  border-bottom: 1px solid white;
 }
