@@ -9,18 +9,31 @@
   <body>
   	<div class="container">
   		<div class="row">
-  			<div class="col-12">
+  			<div class="col-12 bg_navbar">
   				<div class="row">
   					<div class="col-6">
-  						<img src="">
+  						<div class="row icon">
+  							<div class="col-2" align="right">
+  								<img src="css/magnifying-glass-flat-icons.svg">
+  							</div>
+  							<div class="col-10">
+  								<div class="title">
+  									<h3>HelloWorld!</h3>
+  								</div>
+  								<div class="subtitle">
+  									<p>Saatnya belajar</p>
+  								</div>
+  							</div>
+  						</div>
   					</div>
   					<div class="col-6 nav-bar">
-  						<ul>
-  							<li><a href="">...</a></li>
-  							<li><a href="">...</a></li>
-  							<li><a href="">...</a></li>
-  						</ul>
-  					</div>
+  						<div class="username">
+  							<p>Wendy Yansah</p>
+  						</div>
+ 						<div class="logo">
+ 							<img src="">
+ 						</div> 						
+   					</div>
   				</div>
   			</div>
   		</div>

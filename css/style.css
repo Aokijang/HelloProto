@@ -2,11 +2,29 @@
 	font-family: proximanova;
 	src: "font/Mark Simonson - Proxima Nova Thin-webfont.ttf";
 }
-
 body{
 	margin: 0;
+	font-family: "proximanova",sans-serif;
 }
-
+.bg_navbar{
+	background: #25ADE8;
+	padding: 15px 20px;
+}
 .nav-bar ul li{
 	display: inline-block;
+	padding: 5px 20px;
+}
+.icon img{
+	width: 60px;
+}
+.title{
+	border-bottom: 1px solid white;
+	padding: 5px 0;
+}
+.title h3, .subtitle p{
+	margin: 0;
+	padding: 0;
+}
+.subtitle{
+	padding: 5px 0;
 }
