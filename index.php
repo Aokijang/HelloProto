@@ -32,12 +32,29 @@
   						</div>
  						<div class="logo">
  							<img src="">
- 						</div> 						
+ 						</div>
    					</div>
   				</div>
   			</div>
   		</div>
 
+<div class="container">
+  <div class="row">
+    <div class="col-2">
+      <ul>
+        <li>Profile</li>
+        <li>About</li>
+        <li>Help</li>
+        <li>Class</li>
+        <li>Note</li>
+        <li>Assignment</li>
+        <li>Quiz</li>
+        <li>Discussion</li>
+        <li>Task List</li>
+      </ul>
+    </div>
+  </div>
+</div>
       <footer>
         <div class="row">
           <div class="col-5">
