@@ -27,6 +27,7 @@
   						</div>
   					</div>
   					<div class="col-6 nav-bar">
+<<<<<<< HEAD
               <div class="row">
                 <div class="col-11 username">
                   <p>Wendy Yansah</p>
@@ -35,11 +36,36 @@
                   <img src="css/profile.png">
                 </div>  
               </div>
+=======
+  						<div class="username">
+  							<p>Wendy Yansah</p>
+  						</div>
+ 						<div class="logo">
+ 							<img src="">
+ 						</div>
+>>>>>>> a9900194763ca54c53303ac0b9e6bae986f18b38
    					</div>
   				</div>
   			</div>
   		</div>
 
+<div class="container">
+  <div class="row">
+    <div class="col-2">
+      <ul>
+        <li>Profile</li>
+        <li>About</li>
+        <li>Help</li>
+        <li>Class</li>
+        <li>Note</li>
+        <li>Assignment</li>
+        <li>Quiz</li>
+        <li>Discussion</li>
+        <li>Task List</li>
+      </ul>
+    </div>
+  </div>
+</div>
       <footer>
         <div class="row">
           <div class="col-5 repad">

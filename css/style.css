@@ -42,6 +42,7 @@ body{
 .subtitle{
 	padding: 5px 0;
 }
+<<<<<<< HEAD
 footer {
   background: rgb(2, 67, 78);
   color: rgb(247, 247, 247);
@@ -61,4 +62,16 @@ footer a {
 }
 .repad{
 	padding: 30px;
+}
+ul {
+	display: none;
+	display: block;
+	padding: 10px 20px;
+	background-color: blue;
+	list-style-type: none;
+	text-align: center;
+}
+li {
+	padding: 0;
+	color: black;
 }
