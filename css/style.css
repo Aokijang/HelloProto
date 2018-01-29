@@ -11,6 +11,42 @@ body{
 	padding: 15px 20px;
 	color: white;
 }
+.bg_login{
+	background: url("image1.png");
+	background-size: cover;
+	padding-bottom: 40px;
+}
+.titles h1{
+	text-align: center;
+	margin: 80px 0 40px 0;
+	font-size: 60px;
+	font-weight: 100;
+	letter-spacing: 1px;
+}
+.titles p{
+	text-align: center;
+	padding: 0 300px;
+	letter-spacing: 0.6px;
+	line-height: 30px;
+}
+.mini-box{
+	background: white;
+	padding: 40px;
+}
+.mini-box h2{
+	margin-top: 0;
+	font-size: 35px;
+	font-weight: 100;
+	padding-bottom: 20px;
+	border-bottom: 1px solid gray;
+	text-align: center;
+}
+.mini-box input{
+	text-align: left;
+	padding: 20px;
+	width: 88%;
+	margin: 10px 0
+}
 .nav-bar p{
 	display: inline-block;
 	text-align: right;
