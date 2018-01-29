@@ -5,6 +5,8 @@
 body{
 	margin: 0;
 	font-family: "proximanova",sans-serif;
+	background: #dfdfdf;
+	color: #222;
 }
 .bg_navbar{
 	background: #25ADE8;
@@ -81,4 +83,38 @@ footer a {
 }
 li.hover{
 	background: rgb(56, 56, 56);
+}
+.content {
+	padding: 15px;
+}
+.text-cont {
+	background: #f1f1f1;
+	padding: 12px;
+}
+.text-img img {
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+}
+.text-name {
+	font-size: 0.7em;
+}
+.text-line {
+	border: 0;
+	width: 83.333333%;
+	height: 5px;
+	background: #dfdfdf;
+}
+.text-content {
+	border-left: 5px solid #2b8f0c;
+}
+.text-button {
+	margin-top: 15px;
+}
+.text-button button {
+	width: 100%;
+	padding: 10px 0;
+	background: rgb(28, 28, 28);
+	color: #F5F5F5;
+	border: 0;
 }
