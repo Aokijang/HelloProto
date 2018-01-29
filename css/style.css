@@ -164,4 +164,5 @@ li.hover{
 	background: rgb(28, 28, 28);
 	color: #F5F5F5;
 	border: 0;
+	outline: none;
 }
