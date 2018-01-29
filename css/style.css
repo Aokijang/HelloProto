@@ -66,8 +66,9 @@ footer a {
 	display: none;
 	display: block;
 	padding: 0;
-	background-color: rgb(160,160,160);
+	background-color: rgb(28, 28, 28);
 	list-style-type: none;
+	color: #F1F1F1;
 }
 .bg_sidebar ul{
 	padding: 0;
@@ -79,5 +80,5 @@ footer a {
 	text-align: center;
 }
 li.hover{
-	background: rgb(240,240,240);
+	background: rgb(56, 56, 56);
 }
