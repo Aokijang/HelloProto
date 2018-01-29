@@ -30,10 +30,16 @@
               <div class="row">
                 <div class="col-11 username">
                   <p>Wendy Yansah</p>
+                  <div class="logout">
+                    <a class="keluarout">Keluar</a>
+                  </div>
+
                 </div>
-                <div class="col-1 logo" align="left">
+                <div class="col-1 logo" style="text-align:right">
                   <img src="css/profile.png">
                 </div>
+
+
               </div>
    					</div>
   				</div>
@@ -55,10 +61,46 @@
                 <li>Task List</li>
               </ul>
             </div>
-            <div class="col-10">
-              .....
+            <div class="col-10 content">
+              <div class="row">
+                <div class="col-4">
+                  <div class="text-cont">
+                    <div class="row">
+                      <div class="col-2">
+                        <div class="text-img">
+                          <img src="css/profile.png" alt="">
+                        </div>
+                      </div>
+                      <div class="col-10">
+                        <div class="text-name">
+                          <h1>Wendy Yansah</h1>
+                        </div>
+                      </div>
+                    </div>
+                    <hr class="text-line">
+                    <div class="row">
+                      <div class="col-2"></div>
+                      <div class="col-10 text-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="text-button">
+                        <div class="col-4"></div>
+                        <div class="col-4">
+                          <button type="button" name="like" id="like">Like</button>
+                        </div>
+                        <div class="col-4">
+                          <button type="button" name="reply" id="reply">Reply</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>  
+          </div>
         </div>
       </div>
       <footer>
