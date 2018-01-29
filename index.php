@@ -30,10 +30,16 @@
               <div class="row">
                 <div class="col-11 username">
                   <p>Wendy Yansah</p>
+                  <div class="logout">
+                    <a class="keluarout">Keluar</a>
+                  </div>
+
                 </div>
-                <div class="col-1 logo" align="left">
+                <div class="col-1 logo" style="text-align:right">
                   <img src="css/profile.png">
                 </div>
+
+
               </div>
    					</div>
   				</div>

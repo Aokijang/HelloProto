@@ -26,6 +26,17 @@ body{
 	display: inline-block;
 	padding: 5px;
 }
+.logout {
+	padding: 0px;
+}
+.keluarout {
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+.keluarout:hover {
+	text-decoration: underline;
+	color: #ffa602;
+}
 .logo img{
 	width: 45px;
 	border-radius: 100%;
