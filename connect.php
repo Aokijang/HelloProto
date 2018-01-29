@@ -1,5 +1,5 @@
 <?php
 
-	$conn = mysqli_connect('localhost', 'root', '', 'data_ta')
+	$conn = mysqli_connect('localhost', 'root', '', 'data_ta');
 	
 ?>
