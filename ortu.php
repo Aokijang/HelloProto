@@ -31,7 +31,7 @@
                 <div class="col-11 username">
                   <p>Hansen Artajaya</p>
                   <div class="logout">
-                    <a class="keluarout">Keluar</a>
+                    <a class="keluarout" href="index.php">Keluar</a>
                   </div>
 
                 </div>
@@ -50,15 +50,15 @@
           <div class="row">
             <div class="col-2 bg_sidebar">
               <ul class="navbar">
-                <li class="hover">Home</li>
-                <li>About</li>
-                <li>Help</li>
-                <li>Class</li>
-                <li>Note</li>
-                <li>Assignment</li>
-                <li>Quiz</li>
-                <li>Discussion</li>
-                <li>Task List</li>
+                <li class="hover"><a href="home.php">Home</a></li>
+                <li><a href="ortu.php">About</a></li>
+                <li><a href="help.php">Help</a></li>
+                <li><a href="class.php">Class</a></li>
+                <li><a href="note.php">Note</a></li>
+                <li><a href="assignment.php">Assignment</a></li>
+                <li><a href="quiz.php">Quiz</a></li>
+                <li><a href="discussion.php">Discussion</a></li>
+                <li><a href="task.php">Task List</a></li>
               </ul>
             </div>
             <div class="col-10 content">

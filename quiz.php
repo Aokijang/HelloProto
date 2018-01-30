@@ -50,13 +50,13 @@
           <div class="row">
             <div class="col-2 bg_sidebar">
               <ul class="navbar">
-                <li class="hover"><a href="siswa.php">Home</a></li>
+                <li><a href="siswa.php">Home</a></li>
                 <li><a href="about.php">About</a></li>
                 <li><a href="help.php">Help</a></li>
                 <li><a href="class.php">Class</a></li>
                 <li><a href="note.php">Note</a></li>
                 <li><a href="assignment.php">Assignment</a></li>
-                <li><a href="quiz.php">Quiz</a></li>
+                <li class="hover"><a href="quiz.php">Quiz</a></li>
                 <li><a href="discussion.php">Discussion</a></li>
                 <li><a href="task.php">Task List</a></li>
               </ul>
@@ -64,37 +64,63 @@
             <div class="col-10 content">
               <div class="row">
                 <div class="col-12">
-                  <div class="text-cont">
-                    <div class="row">
-                      <div class="col-1">
-                        <div class="text-img">
-                          <img src="css/profile.png" alt="">
+                  <div class="other-text-cont note-cont">
+                    <div class="soal-cont">
+                      <h1 class="title-text">Soal ke - 1</h1>
+                      <p>1 + 1 = ...</p>
+                      <div class="row">
+                        <div class="col-12">
+                          <input type="submit" name="a" id="a" value="A.  11">
                         </div>
                       </div>
-                      <div class="col-10">
-                        <div class="text-name">
-                          <h1>Wendy Yansah</h1>
+                      <div class="row">
+                        <div class="col-12">
+                          <input type="submit" name="b" id="b" value="B.  2">
                         </div>
                       </div>
-                      <div class="col-1"></div>
-                    </div>
-                    <hr class="text-line">
-                    <div class="row">
-                      <div class="col-1"></div>
-                      <div class="col-10 text-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      <div class="row">
+                        <div class="col-12">
+                          <input type="submit" name="c" id="c" value="C.  Lupa Cara Hitung">
+                        </div>
                       </div>
-                      <div class="col-1"></div>
+                      <div class="row">
+                        <div class="col-12">
+                          <input type="submit" name="d" id="d" value="D.  Satu Belas">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12">
+                          <input type="submit" name="e" id="e" value="E.  Jendela">
+                        </div>
+                      </div>
                     </div>
 
-                    <div class="row">
-                      <div class="text-button">
-                        <div class="col-8"></div>
-                        <div class="col-2">
-                          <button type="button" name="like" id="like">Like</button>
+                    <div class="soal-cont">
+                      <h1 class="title-text">Soal ke - 2</h1>
+                      <p>a + b = c. Maka, a = ...</p>
+                      <div class="row">
+                        <div class="col-12">
+                          <input type="submit" name="a" id="a" value="A.  c - b">
                         </div>
-                        <div class="col-2">
-                          <button type="button" name="reply" id="reply">Reply</button>
+                      </div>
+                      <div class="row">
+                        <div class="col-12">
+                          <input type="submit" name="b" id="b" value="B.  b - c">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12">
+                          <input type="submit" name="c" id="c" value="C.  a - c">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12">
+                          <input type="submit" name="d" id="d" value="D.  b - a">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12">
+                          <input type="submit" name="e" id="e" value="E.  a - b">
                         </div>
                       </div>
                     </div>
