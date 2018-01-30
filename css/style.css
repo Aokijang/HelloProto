@@ -56,6 +56,19 @@ body{
 	color: white;
 	border: transparent;
 	font-size: 20px;
+	letter-spacing: 1px;
+	margin-bottom: 0px;
+}
+.button_change{
+	width: 100%;
+	text-align: center;
+	background: #3a6ee8;
+	color: white;
+	border: transparent;
+	font-size: 20px;
+	padding: 20px;
+	letter-spacing: 1px;
+	margin-top: 10px;
 }
 .nav-bar p{
 	display: inline-block;
@@ -191,7 +204,11 @@ li.hover{
 	border-bottom: 5px solid #dfdfdf;
 }
 .other-text-cont {
+<<<<<<< HEAD
 	margin-top: 15px;
+=======
+	margin-left: 15px;
+>>>>>>> 8913b399d5ed54558b86b3dbc458781e492698e9
 }
 .class-cont {
 	background: rgb(223, 223, 223);
@@ -207,7 +224,11 @@ li.hover{
 }
 .note-cont {
 	background: #f1f1f1;
+<<<<<<< HEAD
 	padding: 30px;
+=======
+	padding: 15px;
+>>>>>>> 8913b399d5ed54558b86b3dbc458781e492698e9
 }
 .assignment-content {
 	margin-top: 15px;
@@ -222,6 +243,7 @@ li.hover{
 .class-effect:hover {
 	box-shadow: 0 0 2px 4px #5d5d5d;
 }
+<<<<<<< HEAD
 .note-cont h1 {
 	margin: 0;
 }
@@ -302,3 +324,5 @@ li.hover{
 	width: auto;
 	margin-right: 15px;
 }
+=======
+>>>>>>> 8913b399d5ed54558b86b3dbc458781e492698e9
