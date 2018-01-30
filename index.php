@@ -11,6 +11,21 @@
 	    <title>Hello World</title>
 	    <link rel="stylesheet" type="text/css" href="css/grid.css">
 	    <link rel="stylesheet" type="text/css" href="css/style.css">
+	    <script type="text/javascript" src="jquery-3.2.1.js"></script>
+	    <script>
+	    	$(document).ready(function(){
+	    		$("#login_page").show();
+	    		$("#register_page").hide();
+	    		$("#register").click(function(){
+	    			$("#register_page").show();
+	    			$("#login_page").hide();
+	    		});
+	    		$("#login").click(function(){
+	    			$("#login_page").show();
+	    			$("#register_page").hide();
+	    		});
+	    	});
+	    </script>
 	</head>
 	<body>
 		<div class="container">
@@ -37,12 +52,16 @@
 	  							<div class="col-12">
 	  								<div class="row">
 	  									<div class="col-4"></div>
-	  									<div class="col-4 mini-box">
+	  									<div class="col-4 mini-box" id="login_page" style="display: inline-block;">
 	  										<h2>Login</h2>
 	  										<form action="" method="POST">
 		  										<input type="text" name="user" placeholder="Username"><br>
 		  										<input type="password" name="pass" placeholder="Password" maxlength="16"><br>
+<<<<<<< HEAD
+		  										<input class="button_submit" type="submit" name="log" value="Login"><br>
+=======
 		  										<input class="button_submit" type="submit" name="log" value="Login">
+>>>>>>> 11f1ca08b83919d5a3ce591eda0afa7071b2fd20
 			  								</form>
 			  								<?php
 
@@ -86,6 +105,18 @@
                               }
                            }
                        ?> 
+
+		  									<button class="button_change" id="register">Register</button>
+	  									</div>
+	  									<div class="col-4 mini-box" id="register_page" style="display: none;">
+	  										<h2>Sign up</h2>
+	  										<form action="" method="POST">
+		  										<input type="text" name="user" placeholder="Username"><br>
+		  										<input type="password" name="pass" placeholder="Password" maxlength="16"><br>
+		  										<input type="text" name="email" placeholder="Email"><br>
+		  										<input class="button_submit" type="submit" name="signup" value="Sign Up"><br>
+			  								</form>
+		  									<button class="button_change" id="login">Already Have Account?</button>
 	  									</div>
 	  									<div class="col-4"></div>
 	  								</div>
