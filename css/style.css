@@ -324,5 +324,20 @@ li.hover{
 	width: auto;
 	margin-right: 15px;
 }
-=======
->>>>>>> 8913b399d5ed54558b86b3dbc458781e492698e9
+/* desktop */
+@media screen and (min-width: 900px) {
+}
+/* tablet */
+@media screen and (max-width: 900px) and (min-width: 480px) {
+	[class*="col-"] {
+		width: 50%;
+	}
+	.col12 {
+		width: 100%;
+}
+/* mobile */
+@media screen and (max-width: 480px){
+	[class*="col-"] {
+		width: 100%;
+	}
+}
