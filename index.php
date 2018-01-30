@@ -57,7 +57,15 @@
 	  										<form action="" method="POST">
 		  										<input type="text" name="user" placeholder="Username"><br>
 		  										<input type="password" name="pass" placeholder="Password" maxlength="16"><br>
+<<<<<<< HEAD
 		  										<input class="button_submit" type="submit" name="log" value="Login"><br>
+=======
+<<<<<<< HEAD
+		  										<input class="button_submit" type="submit" name="log" value="Login"><br>
+=======
+		  										<input class="button_submit" type="submit" name="log" value="Login">
+>>>>>>> 11f1ca08b83919d5a3ce591eda0afa7071b2fd20
+>>>>>>> a4d089b644471835ba4a6af6e6c853ef83bd123c
 			  								</form>
 			  								<?php
 
