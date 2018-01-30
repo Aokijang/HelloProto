@@ -49,6 +49,27 @@ body{
 	width: 88%;
 	margin: 10px 0
 }
+.mini-box input.button_submit{
+	width: 100%;
+	text-align: center;
+	background: #3a6ee8;
+	color: white;
+	border: transparent;
+	font-size: 20px;
+	letter-spacing: 1px;
+	margin-bottom: 0px;
+}
+.button_change{
+	width: 100%;
+	text-align: center;
+	background: #3a6ee8;
+	color: white;
+	border: transparent;
+	font-size: 20px;
+	padding: 20px;
+	letter-spacing: 1px;
+	margin-top: 10px;
+}
 .nav-bar p{
 	display: inline-block;
 	text-align: right;
@@ -135,6 +156,7 @@ li.hover{
 	padding: 15px;
 }
 .text-cont {
+	margin: 10px 0;
 	background: #f1f1f1;
 	padding: 12px;
 }
