@@ -52,9 +52,9 @@
               <ul class="navbar">
                 <li><a href="home.php">Home</a></li>
                 <li><a href="about.php">About</a></li>
-                <li class="hover"><a href="help.php">Help</a></li>
+                <li><a href="help.php">Help</a></li>
                 <li><a href="class.php">Class</a></li>
-                <li><a href="note.php">Note</a></li>
+                <li class="hover"><a href="note.php">Note</a></li>
                 <li><a href="assignment.php">Assignment</a></li>
                 <li><a href="quiz.php">Quiz</a></li>
                 <li><a href="discussion.php">Discussion</a></li>
@@ -64,9 +64,18 @@
             <div class="col-10 content">
               <div class="row">
                 <div class="col-12">
-                  <div class="text-cont">
-                    <h1 class="title-text">Help</h1>
-                    <p class="other-text-cont">[WORK IN PROGRESS]</p>
+                  <div class="other-text-cont note-cont">
+                    <h2 class="class-title">X TKJ 1 [Nama Guru Disini]</h2>
+                    <div class="class-content">
+                      <div class="row">
+                        <div class="col-2">
+                          <img src="css/class.jpg" alt="class_demo">
+                        </div>
+                        <div class="col-8">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

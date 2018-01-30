@@ -55,10 +55,10 @@
                 <li><a href="help.php">Help</a></li>
                 <li><a href="class.php">Class</a></li>
                 <li><a href="note.php">Note</a></li>
-                <li><a href="assignment">Assignment</a></li>
-                <li><a href="quiz">Quiz</a></li>
-                <li><a href="discussion">Discussion</a></li>
-                <li><a href="task">Task List</a></li>
+                <li><a href="assignment.php">Assignment</a></li>
+                <li><a href="quiz.php">Quiz</a></li>
+                <li><a href="discussion.php">Discussion</a></li>
+                <li><a href="task.php">Task List</a></li>
               </ul>
             </div>
             <div class="col-10 content">

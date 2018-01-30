@@ -52,11 +52,11 @@
               <ul class="navbar">
                 <li><a href="home.php">Home</a></li>
                 <li><a href="about.php">About</a></li>
-                <li class="hover"><a href="help.php">Help</a></li>
+                <li><a href="help.php">Help</a></li>
                 <li><a href="class.php">Class</a></li>
                 <li><a href="note.php">Note</a></li>
                 <li><a href="assignment.php">Assignment</a></li>
-                <li><a href="quiz.php">Quiz</a></li>
+                <li class="hover"><a href="quiz.php">Quiz</a></li>
                 <li><a href="discussion.php">Discussion</a></li>
                 <li><a href="task.php">Task List</a></li>
               </ul>
@@ -64,9 +64,8 @@
             <div class="col-10 content">
               <div class="row">
                 <div class="col-12">
-                  <div class="text-cont">
-                    <h1 class="title-text">Help</h1>
-                    <p class="other-text-cont">[WORK IN PROGRESS]</p>
+                  <div class="other-text-cont note-cont">
+                    test
                   </div>
                 </div>
               </div>

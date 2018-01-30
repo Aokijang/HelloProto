@@ -56,10 +56,6 @@ body{
 	color: white;
 	border: transparent;
 	font-size: 20px;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> a4d089b644471835ba4a6af6e6c853ef83bd123c
 	letter-spacing: 1px;
 	margin-bottom: 0px;
 }
@@ -73,11 +69,6 @@ body{
 	padding: 20px;
 	letter-spacing: 1px;
 	margin-top: 10px;
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 11f1ca08b83919d5a3ce591eda0afa7071b2fd20
->>>>>>> a4d089b644471835ba4a6af6e6c853ef83bd123c
 }
 .nav-bar p{
 	display: inline-block;
@@ -144,7 +135,6 @@ footer a {
 	padding: 30px;
 }
 .bg_sidebar {
-	display: none;
 	display: block;
 	padding: 0;
 	background-color: rgb(28, 28, 28);
@@ -161,6 +151,7 @@ footer a {
 }
 .bg_sidebar a {
 	padding: 20px 20px;
+	display: block;
 	display: inline-block;
 	text-decoration: none;
 	color: #f1f1f1;
@@ -226,4 +217,21 @@ li.hover{
 }
 .class-content {
 	margin-top: 15px;
+}
+.note-cont {
+	background: #f1f1f1;
+	padding: 15px;
+}
+.assignment-content {
+	margin-top: 15px;
+}
+.assignment-content input, button {
+	padding: 12px 24px;
+	margin-right: 15px;
+	background: rgb(28, 28, 28);
+	border: 0;
+	color: #f1f1f1;
+}
+.class-effect:hover {
+	box-shadow: 0 0 2px 4px #5d5d5d;
 }
