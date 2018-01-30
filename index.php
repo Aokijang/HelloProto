@@ -42,7 +42,7 @@
 	  										<form action="" method="POST">
 		  										<input type="text" name="user" placeholder="Username"><br>
 		  										<input type="password" name="pass" placeholder="Password" maxlength="16"><br>
-		  										<input type="submit" name="log" value="Login">
+		  										<input class="button_submit" type="submit" name="log" value="Login">
 			  								</form>
 			  								<?php
 
