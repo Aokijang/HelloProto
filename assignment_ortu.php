@@ -30,14 +30,14 @@
   					<div class="col-6 nav-bar">
               <div class="row">
                 <div class="col-11 username">
-                  <p>Vanestica Ireline</p>
+                  <p>Hansen Artajaya</p>
                   <div class="logout">
                     <a class="keluarout" href="index.php">Keluar</a>
                   </div>
 
                 </div>
                 <div class="col-1 logo" style="text-align:right">
-                  <img src="css/profile3.png">
+                  <img src="css/profile2.jpg">
                 </div>
 
 
@@ -51,22 +51,23 @@
           <div class="row">
             <div class="col-2 bg_sidebar">
               <ul class="navbar">
-                <li><a href="guru.php"><i class="fa fa-home"></i> Home</a></li>
-                <li><a href="about_guru.php"><i class="fa fa-info-circle"></i> About</a></li>
-                <li><a href="help_guru.php"><i class="fa fa-question-circle-o"></i> Help</a></li>
-                <li><a href="class_guru.php"><i class="fa fa-group"></i> Class</a></li>
-                <li><a href="note_guru.php"><i class="fa fa-bookmark-o"></i> Note</a></li>
-                <li class="hover"><a href="assignment_guru.php"><i class="fa fa-flag-o"></i> Assignment</a></li>
-                <li><a href="quiz_guru.php"><i class="fa fa-gamepad" style="color: white"></i> Quiz</a></li>
-                <li><a href="discussion_guru.php"><i class="fa fa-comments" style="color: white"></i> Discussion</a></li>
-                <li><a href="task_guru.php"><i class="fa fa-pencil" style="color: white"></i> Task List</a></li>
+                <li><a href="ortu.php"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="about_ortu.php"><i class="fa fa-info-circle"></i> About</a></li>
+                <li><a href="help_ortu.php"><i class="fa fa-question-circle-o"></i> Help</a></li>
+                <li><a href="class_ortu.php"><i class="fa fa-group"></i> Class</a></li>
+                <li><a href="note_ortu.php"><i class="fa fa-bookmark-o"></i> Note</a></li>
+                <li class="hover"><a href="assignment_ortu.php"><i class="fa fa-flag-o"></i> Assignment</a></li>
+                <li><a href="quiz_ortu.php"><i class="fa fa-gamepad" style="color: white"></i> Quiz</a></li>
+                <li><a href="discussion_ortu.php"><i class="fa fa-comments" style="color: white"></i> Discussion</a></li>
+                <li><a href="task_ortu.php"><i class="fa fa-pencil" style="color: white"></i> Task List</a></li>
               </ul>
             </div>
             <div class="col-10 content">
               <div class="row">
                 <div class="col-12">
                   <div class="other-text-cont note-cont">
-                    <h2 class="class-title">[Nama Guru Disini] Memberikan Tugas</h2>
+                    <h2 class="class-title">[Nama Guru]</h2>
+                    <p style="color: gray; font-size: 15px;">-Kepada X TKJ 1, 28 Januari 2018.</p>
                     <div class="class-content">
                       <div class="row">
                         <div class="col-2">
@@ -77,24 +78,15 @@
                         </div>
                       </div>
                       <div class="row assignment-content">
-                        <div class="col-12">
-                          <button type="button" name="submit" id="submit">Lihat</button>
-                          <button type="button" name="reply" id="reply">Reply</button>
+                        <div class="col-6">
+                          
+                        </div>
+                        <div class="col-6">
+                          <p align="right" style="color: red; font-size: 15px; font-weight: bold; margin: 0;">Tanggal dimulai : 31 Januari 2018, 15.30 PM</p>
+                          <p align="right" style="color: green; font-size: 15px; font-weight: bold; margin: 0; margin-top: 5px;">Tanggal selesai : 31 Januari 2018, 20.00 PM</p>
                         </div>
                       </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-10 content">
-              <div class="row">
-                <div class="col-12">
-                  <div class="assignment-cont">
-                    <button type="button" name="create_note" id="create_note">Create Note</button>
-                    <button type="button" name="edit_note" id="edit_note">Edit Note</button>
-                    <button type="button" name="delete_note" id="delete_note">Delete Note</button>
                   </div>
                 </div>
               </div>

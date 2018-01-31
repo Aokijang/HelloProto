@@ -222,11 +222,7 @@ li.hover{
 }
 .note-cont {
 	background: #f1f1f1;
-	padding: 30px;
-<<<<<<< HEAD
-=======
 	padding: 15px;
->>>>>>> bc2dfd731fb85b676350df45edb5889fdbea1693
 }
 .assignment-content {
 	margin-top: 15px;
@@ -335,5 +331,8 @@ li.hover{
 	padding-left: 15px;
 }
 .quiz-cont button {
+	margin-top: 15px;
+}
+.task-edit {
 	margin-top: 15px;
 }
