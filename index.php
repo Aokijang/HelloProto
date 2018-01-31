@@ -43,7 +43,7 @@
 	  					</div>
 	  				</div>
 	  			</div>
-	  			<div class="col-12 bg_login">
+	  			<div class="col-12 bg_login" style="margin-top: 100px;">
 	  				<div class="row">
 	  					<div class="col-12 titles">
 	  						<h1>Welcome.</h1>
