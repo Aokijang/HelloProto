@@ -47,7 +47,8 @@
   			</div>
   		</div>
       <div class="row">
-        <div class="col-12">
+        <div class="col-2"></div>
+        <div class="col-10">
           <div class="row">
             <div class="col-2 bg_sidebar">
               <ul class="guru">
@@ -62,7 +63,7 @@
                 <li><a href="task_guru.php"><i class="fa fa-pencil" style="color: white"></i> Task List</a></li>
               </ul>
             </div>
-            <div class="col-10 content">
+            <div class="col-12 content">
               <div class="row">
                 <div class="col-12">
                   <div class="text-cont">
