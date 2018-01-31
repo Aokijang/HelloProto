@@ -51,12 +51,12 @@
           <div class="row">
             <div class="col-2 bg_sidebar">
               <ul class="navbar">
-                <li class="hover"><a href="ortu.php"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="ortu.php"><i class="fa fa-home"></i> Home</a></li>
                 <li><a href="about_ortu.php"><i class="fa fa-info-circle"></i> About</a></li>
                 <li><a href="help_ortu.php"><i class="fa fa-question-circle-o"></i> Help</a></li>
                 <li><a href="class_ortu.php"><i class="fa fa-group"></i> Class</a></li>
                 <li><a href="note_ortu.php"><i class="fa fa-bookmark-o"></i> Note</a></li>
-                <li><a href="assignment_ortu.php"><i class="fa fa-flag-o"></i> Assignment</a></li>
+                <li class="hover"><a href="assignment_ortu.php"><i class="fa fa-flag-o"></i> Assignment</a></li>
                 <li><a href="quiz_ortu.php"><i class="fa fa-gamepad" style="color: white"></i> Quiz</a></li>
                 <li><a href="discussion_ortu.php"><i class="fa fa-comments" style="color: white"></i> Discussion</a></li>
                 <li><a href="task_ortu.php"><i class="fa fa-pencil" style="color: white"></i> Task List</a></li>
@@ -65,37 +65,25 @@
             <div class="col-10 content">
               <div class="row">
                 <div class="col-12">
-                  <div class="text-cont">
-                    <div class="row">
-                      <div class="col-1">
-                        <div class="text-img">
-                          <img src="css/profile.png" alt="">
-                        </div>
-                      </div>
-                      <div class="col-10">
-                        <div class="text-name">
-                          <h1>Wendy Yansah</h1>
-                        </div>
-                      </div>
-                      <div class="col-1"></div>
-                    </div>
-                    <hr class="text-line">
-                    <div class="row">
-                      <div class="col-1"></div>
-                      <div class="col-10 text-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                      </div>
-                      <div class="col-1"></div>
-                    </div>
-
-                    <div class="row">
-                      <div class="text-button">
-                        <div class="col-8"></div>
+                  <div class="other-text-cont note-cont">
+                    <h2 class="class-title">[Nama Guru]</h2>
+                    <p style="color: gray; font-size: 15px;">-Kepada X TKJ 1, 28 Januari 2018.</p>
+                    <div class="class-content">
+                      <div class="row">
                         <div class="col-2">
-                          <button type="button" name="like" id="like">Like</button>
+                          <img src="css/class.jpg" alt="">
                         </div>
-                        <div class="col-2">
-                          <button type="button" name="reply" id="reply">Reply</button>
+                        <div class="col-10">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                      </div>
+                      <div class="row assignment-content">
+                        <div class="col-6">
+                          
+                        </div>
+                        <div class="col-6">
+                          <p align="right" style="color: red; font-size: 15px; font-weight: bold; margin: 0;">Tanggal dimulai : 31 Januari 2018, 15.30 PM</p>
+                          <p align="right" style="color: green; font-size: 15px; font-weight: bold; margin: 0; margin-top: 5px;">Tanggal selesai : 31 Januari 2018, 20.00 PM</p>
                         </div>
                       </div>
                     </div>
@@ -108,37 +96,32 @@
       </div>
       <footer>
         <div class="row">
-          <div class="col-2"></div>
-          <div class="col-10">
+          <div class="col-5 repad">
             <div class="row">
-              <div class="col-5 repad">
-                <div class="row">
-                  <div class="col-12">
-                    <p>Have any tips for us? Click this button.</p>
-                      <div class="row">
-                       <div class="col-12">
-                        <a href="#">Ideas and Tips</a>
-                       </div>
-                      </div>
-                      <div class="row" id="footer-menu-container">
-                        <div class="col-3 footer-menu">
-                          FAQ
-                        </div>
-                        <div class="col-3 footer-menu">
-                          About Us
-                        </div>
-                        <div class="col-3 footer-menu">
-                          Contact Us
-                        </div>
-                        <div class="col-3"></div>
-                      </div>
-                  </div>
-                <div class="col-7"></div>
+              <div class="col-12">
+                <p>Have any tips for us? Click this button.</p>
               </div>
             </div>
-             </div>   
+            <div class="row">
+              <div class="col-12">
+                <a href="#">Ideas and Tips</a>
+              </div>
+            </div>
+            <div class="row" id="footer-menu-container">
+              <div class="col-3 footer-menu">
+                FAQ
+              </div>
+              <div class="col-3 footer-menu">
+                About Us
+              </div>
+              <div class="col-3 footer-menu">
+                Contact Us
+              </div>
+              <div class="col-3"></div>
             </div>
           </div>
+          <div class="col-7"></div>
+        </div>
       </footer>
   	</div>
   </body>
