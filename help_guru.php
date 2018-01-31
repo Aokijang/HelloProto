@@ -63,7 +63,7 @@
               </ul>
             </div>
             <div class="col-10 content">
-              <div class="row">
+              <div class="row" id="help_guru">
                 <div class="col-12">
                   <div class="text-cont other-text-cont">
                     <h1 class="title-text">Help</h1>
@@ -77,6 +77,7 @@
       </div>
       <footer>
         <div class="row">
+          <div class="col-2"></div>
           <div class="col-5 repad">
             <div class="row">
               <div class="col-12">

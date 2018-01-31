@@ -64,6 +64,7 @@
             </div>
             <div class="col-10 content">
               <div class="row">
+                <div class="col-2"></div>
                 <div class="col-12">
                   <div class="text-cont">
                     <div class="row">
@@ -173,7 +174,7 @@
                 <div class="col-7"></div>
               </div>
             </div>
-             </div>   
+             </div>
             </div>
           </div>
       </footer>

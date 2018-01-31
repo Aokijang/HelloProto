@@ -94,6 +94,7 @@ body{
 	cursor: pointer;
 	color: #f1f1f1;
 	text-decoration: none;
+	display: none;
 }
 .keluarout:hover {
 	text-decoration: underline;
@@ -343,4 +344,7 @@ li.hover{
 }
 .task-edit {
 	margin-top: 15px;
+}
+#help-guru {
+	margin-left: 16.666666%;
 }

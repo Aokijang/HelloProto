@@ -37,7 +37,7 @@
 
                 </div>
                 <div class="col-1 logo" style="text-align:right">
-                  <img src="css/profile.png">
+                  <img src="css/profile.png" onclick="Logout()">
                 </div>
 
 
@@ -66,7 +66,7 @@
         </div>
         <div class="col-10">
           <div class="row">
-            
+
             <div class="col-10 content">
               <div class="row">
                 <div class="col-12">
@@ -142,10 +142,21 @@
                 <div class="col-7"></div>
               </div>
             </div>
-             </div>   
+             </div>
             </div>
           </div>
       </footer>
   	</div>
   </body>
+  <script>
+  function Logout() {
+    var element = document.getElementsByClassName("keluarout");
+    if (element.style.display == none) {
+      element.style.display = inline;
+    }
+    else {
+      element.style.display = none;
+    }
+  }
+  </script>
 </html>
