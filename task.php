@@ -82,6 +82,7 @@
                     <div class="row">
                       <div class="col-12">
                         <div class="task-edit">
+                          <input type="text" name="text_create" id="list"><br>
                           <button type="button" name="create" id="create">Create</button>
                           <button type="button" name="edit" id="edit">Edit</button>
                           <button type="button" name="delete" id="delete">Delete</button>

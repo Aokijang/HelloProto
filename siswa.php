@@ -67,7 +67,7 @@
         <div class="col-10">
           <div class="row">
             
-            <div class="col-10 content">
+            <div class="col-12 content">
               <div class="row">
                 <div class="col-12">
                   <div class="text-cont">
