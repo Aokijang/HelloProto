@@ -5,6 +5,7 @@
     <title>Hello World</title>
     <link rel="stylesheet" type="text/css" href="css/grid.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/Icons/font-awesome.css">
   </head>
   <body>
   	<div class="container">
@@ -50,30 +51,45 @@
           <div class="row">
             <div class="col-2 bg_sidebar">
               <ul class="navbar">
-                <li><a href="guru.php">Home</a></li>
-                <li><a href="about_guru.php">About</a></li>
-                <li><a href="help_guru.php">Help</a></li>
-                <li><a href="class_guru.php">Class</a></li>
-                <li class="hover"><a href="note_guru.php">Note</a></li>
-                <li><a href="assignment_guru.php">Assignment</a></li>
-                <li><a href="quiz_guru.php">Quiz</a></li>
-                <li><a href="discussion_guru.php">Discussion</a></li>
-                <li><a href="task_guru.php">Task List</a></li>
+                <li><a href="guru.php"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="about_guru.php"><i class="fa fa-info-circle"></i> About</a></li>
+                <li><a href="help_guru.php"><i class="fa fa-question-circle-o"></i> Help</a></li>
+                <li><a href="class_guru.php"><i class="fa fa-group"></i> Class</a></li>
+                <li class="hover"><a href="note_guru.php"><i class="fa fa-bookmark-o"></i> Note</a></li>
+                <li><a href="assignment_guru.php"><i class="fa fa-flag-o"></i> Assignment</a></li>
+                <li><a href="quiz_guru.php"><i class="fa fa-gamepad" style="color: white"></i> Quiz</a></li>
+                <li><a href="discussion_guru.php"><i class="fa fa-comments" style="color: white"></i> Discussion</a></li>
+                <li><a href="task_guru.php"><i class="fa fa-pencil" style="color: white"></i> Task List</a></li>
               </ul>
             </div>
             <div class="col-10 content">
               <div class="row">
                 <div class="col-12">
                   <div class="other-text-cont note-cont">
-                    <h2 class="class-title">[Nama Kelas] [Nama Guru Disini] Berkata</h2>
+                    <h2 class="class-title" align="right">[Nama Guru]</h2>
+                    <p style="color: gray; font-size: 15px;" align="right">-Kepada X TKJ 1, 28 Januari 2018.</p>
                     <div class="class-content">
                       <div class="row">
-                        <div class="col-2">
-                          <img src="css/class.jpg" alt="class_demo">
+                        <div class="col-3">
+                          <img style="width: 250px" src="css/one-page-per-month-thumbnail.png">
                         </div>
-                        <div class="col-8">
+                        <div class="col-9" align="right">
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                          <p style="color: red; font-size: 15px; font-weight: bold; margin: 0; margin-top: 40px;">Tanggal dimulai : 31 Januari 2018, 15.30 PM</p>
+                          <p style="color: green; font-size: 15px; font-weight: bold; margin: 0; margin-top: 5px;">Tanggal selesai : 31 Januari 2018, 20.00 PM</p>
                         </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 content">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="assignment-cont">
+                        <button type="button" name="create_assignment" id="create_assignment">Create Assignment</button>
+                        <button type="button" name="edit_assignment" id="edit_assignment">Edit Assignment</button>
+                        <button type="button" name="delete_assignment" id="delete_assignment">Delete Assignment</button>
                       </div>
                     </div>
                   </div>

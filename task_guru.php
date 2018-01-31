@@ -5,6 +5,7 @@
     <title>Hello World</title>
     <link rel="stylesheet" type="text/css" href="css/grid.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/Icons/font-awesome.css">
   </head>
   <body>
   	<div class="container">
@@ -49,16 +50,16 @@
         <div class="col-12">
           <div class="row">
             <div class="col-2 bg_sidebar">
-              <ul class="navbar">
-                <li><a href="guru.php">Home</a></li>
-                <li><a href="about_guru.php">About</a></li>
-                <li><a href="help_guru.php">Help</a></li>
-                <li><a href="class_guru.php">Class</a></li>
-                <li><a href="note_guru.php">Note</a></li>
-                <li><a href="assignment_guru.php">Assignment</a></li>
-                <li><a href="quiz_guru.php">Quiz</a></li>
-                <li><a href="discussion_guru.php">Discussion</a></li>
-                <li class="hover"><a href="task_guru.php">Task List</a></li>
+              <ul class="guru">
+                <li><a href="guru.php"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="about_guru.php"><i class="fa fa-info-circle"></i> About</a></li>
+                <li><a href="help_guru.php"><i class="fa fa-question-circle-o"></i> Help</a></li>
+                <li><a href="class_guru.php"><i class="fa fa-group"></i> Class</a></li>
+                <li><a href="note_guru.php"><i class="fa fa-bookmark-o"></i> Note</a></li>
+                <li><a href="assignment_guru.php"><i class="fa fa-flag-o"></i> Assignment</a></li>
+                <li><a href="quiz_guru.php"><i class="fa fa-gamepad" style="color: white"></i> Quiz</a></li>
+                <li><a href="discussion_guru.php"><i class="fa fa-comments" style="color: white"></i> Discussion</a></li>
+                <li class="hover"><a href="task_guru.php"><i class="fa fa-pencil" style="color: white"></i> Task List</a></li>
               </ul>
             </div>
             <div class="col-10 content">
@@ -70,9 +71,9 @@
                       <div class="col-12">
                         <div class="task">
                           <ul>
-                            <li><input type="checkbox" name="check" id="check">Kerjakan Quiz <span class="date">(32-Jan-2020)</span></li>
-                            <li><input type="checkbox" name="check" id="check">Kerjakan PR Membaca <span class="date">(33-Jan-2020)</span></li>
-                            <li><input type="checkbox" name="check" id="check">Kerjakan PR Melukis <span class="date">(33-Jan-2020)</span></li>
+                            <li><input type="checkbox" name="check" id="check">Check Quiz<span class="date">(33-Jan-2020)</span></li>
+                            <li><input type="checkbox" name="check" id="check">Check PR Membaca <span class="date">(34-Jan-2020)</span></li>
+                            <li><input type="checkbox" name="check" id="check">Check Pr Melukis <span class="date">(35-Jan-2020)</span></li>
                           </ul>
                         </div>
                       </div>
