@@ -90,12 +90,11 @@ body{
 	padding: 0px;
 	display: hidden;
 }
-#keluarout {
+.keluarout {
 	transition-duration: 0.2s;
 	cursor: pointer;
 	color: #f1f1f1;
 	text-decoration: none;
-	display: none;
 }
 .keluarout:hover {
 	text-decoration: underline;
@@ -436,4 +435,9 @@ input#myInput {
 
 .addBtn:hover {
     background-color: #bbb;
+.help-cont img {
+	max-width: 100%;
+}
+.help-cont li {
+	font-size: 1.4em;
 }
