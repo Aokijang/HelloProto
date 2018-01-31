@@ -88,8 +88,9 @@ body{
 }
 .logout {
 	padding: 0px;
+	display: hidden;
 }
-.keluarout {
+#keluarout {
 	transition-duration: 0.2s;
 	cursor: pointer;
 	color: #f1f1f1;
@@ -128,7 +129,7 @@ footer a {
   display: inline-block;
   text-decoration: none;
   color: rgb(247, 247, 247);
-  background: rgb(102, 102, 102);
+  background: rgb(28, 28, 28);
   padding: 10px 30px;
   margin: -10px 0 10px 0;
 }

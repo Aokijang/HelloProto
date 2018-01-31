@@ -32,12 +32,12 @@
                 <div class="col-11 username">
                   <p>Wendy Yansah</p>
                   <div class="logout">
-                    <a class="keluarout" href="index.php">Keluar</a>
+                    <a id="keluarout" href="index.php">Keluar</a>
                   </div>
 
                 </div>
-                <div class="col-1 logo" style="text-align:right">
-                  <img src="css/profile.png" onclick="Logout()">
+                <div class="col-1 logo" style="text-align:right" onclick="Logout()">
+                  <img src="css/profile.png">
                 </div>
 
 
@@ -150,13 +150,7 @@
   </body>
   <script>
   function Logout() {
-    var element = document.getElementsByClassName("keluarout");
-    if (element.style.display == none) {
-      element.style.display = inline;
-    }
-    else {
-      element.style.display = none;
-    }
+    document.getElementById("keluarout").style += "display: none;";
   }
   </script>
 </html>
