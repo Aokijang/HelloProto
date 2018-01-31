@@ -47,9 +47,7 @@
   			</div>
   		</div>
       <div class="row">
-        <div class="col-12">
-          <div class="row">
-            <div class="col-2 bg_sidebar">
+        <div class="col-2 bg_sidebar">
               <ul class="navbar">
                 <li><a href="siswa.php"><i class="fa fa-home"></i> Home</a></li>
                 <li><a href="about.php"><i class="fa fa-info-circle"></i> About</a></li>
@@ -61,8 +59,11 @@
                 <li><a href="discussion.php"><i class="fa fa-comments" style="color: white"></i> Discussion</a></li>
                 <li><a href="task.php"><i class="fa fa-pencil" style="color: white"></i> Task List</a></li>
               </ul>
-            </div>
-            <div class="col-10 content">
+          </div>
+        <div class="col-2"></div>
+        <div class="col-10">
+          <div class="row">
+            <div class="col-12 content">
               <div class="row">
                 <div class="col-12">
                   <div class="other-text-cont note-cont">
@@ -89,32 +90,37 @@
       </div>
       <footer>
         <div class="row">
-          <div class="col-5 repad">
+          <div class="col-2"></div>
+          <div class="col-10">
             <div class="row">
-              <div class="col-12">
-                <p>Have any tips for us? Click this button.</p>
+              <div class="col-5 repad">
+                <div class="row">
+                  <div class="col-12">
+                    <p>Have any tips for us? Click this button.</p>
+                      <div class="row">
+                       <div class="col-12">
+                        <a href="#">Ideas and Tips</a>
+                       </div>
+                      </div>
+                      <div class="row" id="footer-menu-container">
+                        <div class="col-3 footer-menu">
+                          FAQ
+                        </div>
+                        <div class="col-3 footer-menu">
+                          About Us
+                        </div>
+                        <div class="col-3 footer-menu">
+                          Contact Us
+                        </div>
+                        <div class="col-3"></div>
+                      </div>
+                  </div>
+                <div class="col-7"></div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-12">
-                <a href="#">Ideas and Tips</a>
-              </div>
-            </div>
-            <div class="row" id="footer-menu-container">
-              <div class="col-3 footer-menu">
-                FAQ
-              </div>
-              <div class="col-3 footer-menu">
-                About Us
-              </div>
-              <div class="col-3 footer-menu">
-                Contact Us
-              </div>
-              <div class="col-3"></div>
+             </div>   
             </div>
           </div>
-          <div class="col-7"></div>
-        </div>
       </footer>
   	</div>
   </body>
