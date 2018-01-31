@@ -69,8 +69,7 @@
                   <div class="text-cont other-text-cont">
                     <h1 class="title-text">About</h1>
                     <div class="other-text-cont">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      <p>Aplikasi ini dibuat dengan tujuan untuk membuat guru lebih terkoneksi dengan siswa & orang tua. Fitur-fiture yang disediakan seperti: submit/upload tugas, sharing file, pelaporan kegiatan siswa ke orang tua, kalender kegiatan, dan lain-lain.</p>
                     </div>
                   </div>
                 </div>
@@ -82,11 +81,7 @@
       <footer>
         <div class="row">
           <div class="col-2"></div>
-<<<<<<< HEAD
-          <div class="col-5 repad">
-=======
           <div class="col-10">
->>>>>>> 65b5e7c41aa195bac0a5e574f5d3ab73d6a3093c
             <div class="row">
               <div class="col-5 repad">
                 <div class="row">

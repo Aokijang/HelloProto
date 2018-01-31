@@ -80,7 +80,7 @@
                                     <div class="col-10 text-me">
                                       <div class="row">
                                         <div class="col-12">
-                                          <h2>Vanestica Ireline</h2>
+                                          <h2>Kamu</h2>
                                         </div>
                                       </div>
                                       <div class="row">
@@ -178,7 +178,7 @@
                 <div class="col-7"></div>
               </div>
             </div>
-             </div>   
+             </div>
             </div>
           </div>
       </footer>
