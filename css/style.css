@@ -223,10 +223,6 @@ li.hover{
 .note-cont {
 	background: #f1f1f1;
 	padding: 30px;
-<<<<<<< HEAD
-=======
-	padding: 15px;
->>>>>>> 94a921a651d9c5b60d6702d51c8284e0fa85f00a
 }
 .assignment-content {
 	margin-top: 15px;
@@ -321,25 +317,10 @@ li.hover{
 	width: auto;
 	margin-right: 15px;
 }
-<<<<<<< HEAD
-=======
-/* responsive tak jadi
-// desktop
-@media screen and (min-width: 900px) {
+.assignment-cont {
+	padding: 0 15px;
+	text-align: right;
 }
-// tablet
-@media screen and (max-width: 900px) and (min-width: 480px) {
-	[class*="col-"] {
-		width: 50%;
-	}
-	.col12 {
-		width: 100%;
+#delete_assignment {
+	margin-right: -15px;
 }
-// mobile
-@media screen and (max-width: 480px){
-	[class*="col-"] {
-		width: 100%;
-	}
-}
-*/
->>>>>>> 94a921a651d9c5b60d6702d51c8284e0fa85f00a

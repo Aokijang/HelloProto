@@ -29,14 +29,14 @@
   					<div class="col-6 nav-bar">
               <div class="row">
                 <div class="col-11 username">
-                  <p>Wendy Yansah</p>
+                  <p>Vanestica Ireline</p>
                   <div class="logout">
                     <a class="keluarout" href="index.php">Keluar</a>
                   </div>
 
                 </div>
                 <div class="col-1 logo" style="text-align:right">
-                  <img src="css/profile.png">
+                  <img src="css/profile3.png">
                 </div>
 
 
@@ -50,15 +50,15 @@
           <div class="row">
             <div class="col-2 bg_sidebar">
               <ul class="navbar">
-                <li><a href="siswa.php">Home</a></li>
-                <li><a href="about.php">About</a></li>
-                <li><a href="help.php">Help</a></li>
-                <li><a href="class.php">Class</a></li>
-                <li><a href="note.php">Note</a></li>
-                <li class="hover"><a href="assignment.php">Assignment</a></li>
-                <li><a href="quiz.php">Quiz</a></li>
-                <li><a href="discussion.php">Discussion</a></li>
-                <li><a href="task.php">Task List</a></li>
+                <li><a href="guru.php">Home</a></li>
+                <li><a href="about_guru.php">About</a></li>
+                <li><a href="help_guru.php">Help</a></li>
+                <li><a href="class_guru.php">Class</a></li>
+                <li><a href="note_guru.php">Note</a></li>
+                <li class="hover"><a href="assignment_guru.php">Assignment</a></li>
+                <li><a href="quiz_guru.php">Quiz</a></li>
+                <li><a href="discussion_guru.php">Discussion</a></li>
+                <li><a href="task_guru.php">Task List</a></li>
               </ul>
             </div>
             <div class="col-10 content">
@@ -77,11 +77,23 @@
                       </div>
                       <div class="row assignment-content">
                         <div class="col-12">
-                          <button type="button" name="submit" id="submit">Submit</button>
+                          <button type="button" name="submit" id="submit">Lihat</button>
                           <button type="button" name="reply" id="reply">Reply</button>
                         </div>
                       </div>
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-10 content">
+              <div class="row">
+                <div class="col-12">
+                  <div class="assignment-cont">
+                    <button type="button" name="create_assignment" id="create_assignment">Create Assignment</button>
+                    <button type="button" name="edit_assignment" id="edit_assignment">Edit Assignment</button>
+                    <button type="button" name="delete_assignment" id="delete_assignment">Delete Assignment</button>
                   </div>
                 </div>
               </div>
