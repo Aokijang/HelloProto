@@ -51,15 +51,15 @@
           <div class="row">
             <div class="col-2 bg_sidebar">
               <ul class="navbar">
-                <li><a href="siswa.php">Home</a></li>
-                <li><a href="about.php">About</a></li>
-                <li><a href="help.php">Help</a></li>
-                <li class="hover"><a href="class.php">Class</a></li>
-                <li><a href="note.php">Note</a></li>
-                <li><a href="assignment.php">Assignment</a></li>
-                <li><a href="quiz.php">Quiz</a></li>
-                <li><a href="discussion.php">Discussion</a></li>
-                <li><a href="task.php">Task List</a></li>
+                <li><a href="siswa.php"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="about.php"><i class="fa fa-info-circle"></i> About</a></li>
+                <li><a href="help.php"><i class="fa fa-question-circle-o"></i> Help</a></li>
+                <li class="hover"><a href="class.php"><i class="fa fa-group"></i> Class</a></li>
+                <li><a href="note.php"><i class="fa fa-bookmark-o"></i> Note</a></li>
+                <li><a href="assignment.php"><i class="fa fa-flag-o"></i> Assignment</a></li>
+                <li><a href="quiz.php"><i class="fa fa-gamepad" style="color: white"></i> Quiz</a></li>
+                <li><a href="discussion.php"><i class="fa fa-comments" style="color: white"></i> Discussion</a></li>
+                <li><a href="task.php"><i class="fa fa-pencil" style="color: white"></i> Task List</a></li>
               </ul>
             </div>
             <div class="col-10 content">
