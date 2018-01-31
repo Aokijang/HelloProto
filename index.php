@@ -12,6 +12,7 @@
 	    <link rel="stylesheet" type="text/css" href="css/grid.css">
 	    <link rel="stylesheet" type="text/css" href="css/style.css">
 	    <script type="text/javascript" src="jquery-3.2.1.js"></script>
+    	<link rel="stylesheet" type="text/css" href="css/Icons/font-awesome.css">
 	    <script>
 	    	$(document).ready(function(){
 	    		$("#login_page").show();

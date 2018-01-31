@@ -5,6 +5,7 @@
     <title>Hello World</title>
     <link rel="stylesheet" type="text/css" href="css/grid.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/Icons/font-awesome.css">
   </head>
   <body>
   	<div class="container">
@@ -65,14 +66,17 @@
               <div class="row">
                 <div class="col-12">
                   <div class="other-text-cont note-cont">
-                    <h2 class="class-title">[Nama Kelas] [Nama Guru Disini] Berkata</h2>
+                    <h2 class="class-title" align="right">[Nama Guru]</h2>
+                    <p style="color: gray; font-size: 15px;" align="right">-Kepada X TKJ 1, 28 Januari 2018.</p>
                     <div class="class-content">
                       <div class="row">
-                        <div class="col-2">
-                          <img src="css/class.jpg" alt="class_demo">
+                        <div class="col-3">
+                <img style="width: 250px" src="css/one-page-per-month-thumbnail.png">
                         </div>
-                        <div class="col-8">
+                        <div class="col-9" align="right">
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                          <p style="color: red; font-size: 15px; font-weight: bold; margin: 0; margin-top: 40px;">Tanggal dimulai : 31 Januari 2018, 15.30 PM</p>
+                          <p style="color: green; font-size: 15px; font-weight: bold; margin: 0; margin-top: 5px;">Tanggal selesai : 31 Januari 2018, 20.00 PM</p>
                         </div>
                       </div>
                     </div>

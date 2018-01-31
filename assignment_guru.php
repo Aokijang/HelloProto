@@ -65,7 +65,7 @@
               <div class="row">
                 <div class="col-12">
                   <div class="other-text-cont note-cont">
-                    <h2 class="class-title">[Nama Kelas] [Nama Guru Disini] Memberikan Tugas</h2>
+                    <h2 class="class-title">[Nama Guru Disini] Memberikan Tugas</h2>
                     <div class="class-content">
                       <div class="row">
                         <div class="col-2">
