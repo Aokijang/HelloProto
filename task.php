@@ -5,6 +5,7 @@
     <title>Hello World</title>
     <link rel="stylesheet" type="text/css" href="css/grid.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/Icons/font-awesome.css">
   </head>
   <body>
   	<div class="container">

@@ -5,6 +5,7 @@
     <title>Hello World</title>
     <link rel="stylesheet" type="text/css" href="css/grid.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/Icons/font-awesome.css">
   </head>
   <body>
   	<div class="container">
@@ -65,7 +66,8 @@
               <div class="row">
                 <div class="col-12">
                   <div class="other-text-cont note-cont">
-                    <h2 class="class-title">X TKJ 1 [Nama Guru Disini]</h2>
+                    <h2 class="class-title">[Nama Guru]</h2>
+                    <p style="color: gray; font-size: 15px;">-Kepada X TKJ 1, 28 Januari 2018.</p>
                     <div class="class-content">
                       <div class="row">
                         <div class="col-2">
@@ -76,9 +78,13 @@
                         </div>
                       </div>
                       <div class="row assignment-content">
-                        <div class="col-12">
+                        <div class="col-6">
                           <button type="button" name="submit" id="submit">Submit</button>
                           <button type="button" name="reply" id="reply">Reply</button>
+                        </div>
+                        <div class="col-6">
+                          <p align="right" style="color: red; font-size: 15px; font-weight: bold; margin: 0;">Tanggal dimulai : 31 Januari 2018, 15.30 PM</p>
+                          <p align="right" style="color: green; font-size: 15px; font-weight: bold; margin: 0; margin-top: 5px;">Tanggal selesai : 31 Januari 2018, 20.00 PM</p>
                         </div>
                       </div>
                     </div>
