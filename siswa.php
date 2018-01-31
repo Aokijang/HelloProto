@@ -32,11 +32,11 @@
                 <div class="col-11 username">
                   <p>Wendy Yansah</p>
                   <div class="logout">
-                    <a class="keluarout" href="index.php">Keluar</a>
+                    <a id="keluarout" href="index.php">Keluar</a>
                   </div>
 
                 </div>
-                <div class="col-1 logo" style="text-align:right">
+                <div class="col-1 logo" style="text-align:right" onclick="Logout()">
                   <img src="css/profile.png">
                 </div>
 
@@ -66,7 +66,6 @@
         </div>
         <div class="col-10">
           <div class="row">
-            
             <div class="col-12 content">
               <div class="row">
                 <div class="col-12">
@@ -142,10 +141,15 @@
                 <div class="col-7"></div>
               </div>
             </div>
-             </div>   
+             </div>
             </div>
           </div>
       </footer>
   	</div>
   </body>
+  <script>
+  function Logout() {
+    document.getElementById("keluarout").style += "display: none;";
+  }
+  </script>
 </html>

@@ -82,7 +82,11 @@
       <footer>
         <div class="row">
           <div class="col-2"></div>
+<<<<<<< HEAD
+          <div class="col-5 repad">
+=======
           <div class="col-10">
+>>>>>>> 65b5e7c41aa195bac0a5e574f5d3ab73d6a3093c
             <div class="row">
               <div class="col-5 repad">
                 <div class="row">
@@ -109,7 +113,7 @@
                 <div class="col-7"></div>
               </div>
             </div>
-             </div>   
+             </div>
             </div>
           </div>
       </footer>
