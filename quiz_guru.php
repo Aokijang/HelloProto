@@ -65,64 +65,13 @@
               <div class="row">
                 <div class="col-12">
                   <div class="other-text-cont note-cont">
-                    <div class="soal-cont">
-                      <h1 class="title-text">Soal ke - 1</h1>
-                      <p>1 + 1 = ...</p>
-                      <div class="row">
-                        <div class="col-12">
-                          <input type="submit" name="a" id="a" value="A.  11">
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-12">
-                          <input type="submit" name="b" id="b" value="B.  2">
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-12">
-                          <input type="submit" name="c" id="c" value="C.  Lupa Cara Hitung">
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-12">
-                          <input type="submit" name="d" id="d" value="D.  Satu Belas">
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-12">
-                          <input type="submit" name="e" id="e" value="E.  Jendela">
-                        </div>
-                      </div>
+                    <div class="title-text">
+                      <h1>Quiz</h1>
                     </div>
-
-                    <div class="soal-cont">
-                      <h1 class="title-text">Soal ke - 2</h1>
-                      <p>a + b = c. Maka, a = ...</p>
-                      <div class="row">
-                        <div class="col-12">
-                          <input type="submit" name="a" id="a" value="A.  c - b">
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-12">
-                          <input type="submit" name="b" id="b" value="B.  b - c">
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-12">
-                          <input type="submit" name="c" id="c" value="C.  a - c">
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-12">
-                          <input type="submit" name="d" id="d" value="D.  b - a">
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-12">
-                          <input type="submit" name="e" id="e" value="E.  a - b">
-                        </div>
-                      </div>
+                    <div class="quiz-cont">
+                      <button type="button" name="create_quiz" id="create_quiz">Create Quiz</button>
+                      <button type="button" name="edit_quiz" id="edit_quiz">Edit Quiz</button>
+                      <button type="button" name="delete_quiz" id="delete_quiz">Delete Quiz</button>
                     </div>
                   </div>
                 </div>

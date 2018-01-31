@@ -71,35 +71,6 @@
                         <div class="col-12">
                           <div class="chat-cont">
                             <div class="row">
-                              <div class="col-8">
-                                <div class="chat-text-cont">
-                                  <div class="row">
-                                    <div class="col-2">
-                                      <img src="css/profile3.png" alt="">
-                                    </div>
-                                    <div class="col-10">
-                                      <div class="row">
-                                        <div class="col-12">
-                                          <h2>Vanestica Ireline</h2>
-                                        </div>
-                                      </div>
-                                      <div class="row">
-                                        <div class="col-12">
-                                          <div class="chat-text">
-                                            Harap Di Kerjakan Quiznya
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="col-4"></div>
-                            </div>
-                          </div>
-
-                          <div class="chat-cont">
-                            <div class="row">
                               <div class="col-4"></div>
                               <div class="col-8">
                                 <div class="chat-text-cont">
@@ -107,23 +78,52 @@
                                     <div class="col-10 text-me">
                                       <div class="row">
                                         <div class="col-12">
-                                          <h2>Kamu</h2>
+                                          <h2>Vanestica Ireline</h2>
                                         </div>
                                       </div>
                                       <div class="row">
                                         <div class="col-12">
                                           <div class="chat-text text-me-border">
-                                            Ok bu
+                                            Harap Di Kerjakan Quiznya
                                           </div>
                                         </div>
                                       </div>
                                     </div>
                                     <div class="col-2">
-                                      <img src="css/profile.png" alt="">
+                                      <img src="css/profile3.png" alt="">
                                     </div>
                                   </div>
                                 </div>
                               </div>
+                            </div>
+                          </div>
+
+                          <div class="chat-cont">
+                            <div class="row">
+                              <div class="col-8">
+                                <div class="chat-text-cont">
+                                  <div class="row">
+                                    <div class="col-2">
+                                      <img src="css/profile.png" alt="">
+                                    </div>
+                                    <div class="col-10">
+                                      <div class="row">
+                                        <div class="col-12">
+                                          <h2>Wendy Yansah</h2>
+                                        </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="col-12">
+                                          <div class="chat-text">
+                                            Ok Bu
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-4"></div>
                             </div>
                           </div>
                         </div>

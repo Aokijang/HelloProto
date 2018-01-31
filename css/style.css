@@ -328,3 +328,12 @@ li.hover{
 #delete_assignment {
 	margin-right: -15px;
 }
+#delete_note {
+	margin-right: -15px;
+}
+.quiz-cont {
+	padding-left: 15px;
+}
+.quiz-cont button {
+	margin-top: 15px;
+}

@@ -70,9 +70,9 @@
                       <div class="col-12">
                         <div class="task">
                           <ul>
-                            <li><input type="checkbox" name="check" id="check">Kerjakan Quiz <span class="date">(32-Jan-2020)</span></li>
-                            <li><input type="checkbox" name="check" id="check">Kerjakan PR Membaca <span class="date">(33-Jan-2020)</span></li>
-                            <li><input type="checkbox" name="check" id="check">Kerjakan PR Melukis <span class="date">(33-Jan-2020)</span></li>
+                            <li><input type="checkbox" name="check" id="check">Check Quiz<span class="date">(33-Jan-2020)</span></li>
+                            <li><input type="checkbox" name="check" id="check">Check PR Membaca <span class="date">(34-Jan-2020)</span></li>
+                            <li><input type="checkbox" name="check" id="check">Check Pr Melukis <span class="date">(35-Jan-2020)</span></li>
                           </ul>
                         </div>
                       </div>

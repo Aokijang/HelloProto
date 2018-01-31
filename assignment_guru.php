@@ -91,9 +91,9 @@
               <div class="row">
                 <div class="col-12">
                   <div class="assignment-cont">
-                    <button type="button" name="create_assignment" id="create_assignment">Create Assignment</button>
-                    <button type="button" name="edit_assignment" id="edit_assignment">Edit Assignment</button>
-                    <button type="button" name="delete_assignment" id="delete_assignment">Delete Assignment</button>
+                    <button type="button" name="create_note" id="create_note">Create Note</button>
+                    <button type="button" name="edit_note" id="edit_note">Edit Note</button>
+                    <button type="button" name="delete_note" id="delete_note">Delete Note</button>
                   </div>
                 </div>
               </div>
