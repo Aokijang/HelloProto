@@ -13,7 +13,7 @@
         var text = document.getElementById("send-text").value;
         chat.value = text.value;
 
-        if(text.value == ""){   
+        if(text.value == ""){
           alert("Ketikkan sebuah pesan untuk dikirim");
         }
         else{
@@ -184,7 +184,7 @@
                         </div>
                         <div class="col-2">
                           <input type="submit" name="send" id="send" value="Kirim" onclick="addChat()">
-                          
+
                         </div>
                       </div>
                     </div>
@@ -233,6 +233,9 @@
     <script>
       var headerHeight = document.querySelector(".bg_navbar").offsetHeight;
       document.querySelector(".bg_sidebar").style = "top:" + headerHeight + "px";
+
+      var windowHeight = window.innerHeight;
+      document.querySelector(".content").style = "min-height:" + (windowHeight - headerHeight) + "px";
     </script>
   </body>
 </html>

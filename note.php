@@ -126,6 +126,9 @@
     <script>
       var headerHeight = document.querySelector(".bg_navbar").offsetHeight;
       document.querySelector(".bg_sidebar").style = "top:" + headerHeight + "px";
+
+      var windowHeight = window.innerHeight;
+      document.querySelector(".content").style = "min-height:" + (windowHeight - headerHeight) + "px";
     </script>
   </body>
 </html>
