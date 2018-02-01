@@ -75,7 +75,7 @@
                       </div>
 
                             <ul id="myUL">
-                              <li id="LI"></li>
+                              <li id="LI" style="display: none;"></li>
                             </ul>
 
                             <script>
