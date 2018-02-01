@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/Icons/font-awesome.css">
   </head>
-  <body>
+  <body onresize="footerChange()" onload="footerChange()">
   	<div class="container">
   		<div class="row">
   			<div class="col-12 bg_navbar">
@@ -145,6 +145,12 @@
     <script>
       var headerHeight = document.querySelector(".bg_navbar").offsetHeight;
       document.querySelector(".bg_sidebar").style = "top:" + headerHeight + "px";
+
+      function footerChange() {
+        var windowHeight = window.innerHeight;
+        document.querySelector(".content").style = "min-height:" + (windowHeight - headerHeight) + "px";
+        setTimeout(footerChange(), 5000);
+      }
     </script>
   </body>
 </html>
