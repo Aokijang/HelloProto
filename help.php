@@ -118,6 +118,7 @@
 
                             <li>Task List</li>
                             <img src="help/task/task_siswa.PNG" alt="">
+                            <img src="help/task/task_siswa_2.PNG" alt="">
                             <p>Di Task List anda dapat membuat kegiatan-kegiatan apa aja yang akan anda lakukan. Anda juga dapat mengedit Task List, ataupun Menghapus Task Listnya. Serta juga mencentang task list</p>
                           </ol>
                         </div>
@@ -165,5 +166,9 @@
           </div>
       </footer>
   	</div>
+    <script>
+      var headerHeight = document.querySelector(".bg_navbar").offsetHeight;
+      document.querySelector(".bg_sidebar").style = "top:" + headerHeight + "px";
+    </script>
   </body>
 </html>

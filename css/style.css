@@ -5,11 +5,11 @@
 body{
 	margin: 0;
 	font-family: "proximanova",sans-serif;
-	background: #dfdfdf;
+	background: rgb(200, 200, 200);
 	color: #222;
 }
 .bg_navbar{
-	background: #25ADE8;
+	background: #166CB5;
 	padding: 15px 20px;
 	color: white;
 	position: fixed;
@@ -95,10 +95,12 @@ body{
 	cursor: pointer;
 	color: #f1f1f1;
 	text-decoration: none;
+	display: none;
 }
 .keluarout:hover {
 	text-decoration: underline;
 	color: #ffa602;
+	display: none;
 }
 .logo img{
 	width: 45px;
@@ -119,7 +121,7 @@ body{
 	padding: 5px 0;
 }
 footer {
-  background: rgb(2, 67, 78);
+  background: #166CB5;
   color: rgb(247, 247, 247);
   margin: 0 -15px;
   padding: 15px 15px;
@@ -145,10 +147,9 @@ footer a {
 	list-style-type: none;
 	color: #F1F1F1;
 	height: 100%;
-    position: fixed;
-    z-index: 1;
-    top: 103px;
-    left: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
 }
 .bg_sidebar ul{
 	padding: 0;

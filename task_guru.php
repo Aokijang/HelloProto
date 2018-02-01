@@ -75,7 +75,7 @@
                       </div>
 
                             <ul id="myUL">
-                              <li id="LI"></li>
+                              <li id="LI" style="display: none;"></li>
                             </ul>
 
                             <script>
@@ -169,10 +169,14 @@
                 <div class="col-7"></div>
               </div>
             </div>
-             </div>   
+             </div>
             </div>
           </div>
       </footer>
   	</div>
+    <script>
+      var headerHeight = document.querySelector(".bg_navbar").offsetHeight;
+      document.querySelector(".bg_sidebar").style = "top:" + headerHeight + "px";
+    </script>
   </body>
 </html>

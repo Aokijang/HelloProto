@@ -80,7 +80,7 @@
                       </div>
                       <div class="row assignment-content">
                         <div class="col-6">
-                          
+
                         </div>
                         <div class="col-6">
                           <p align="right" style="color: red; font-size: 15px; font-weight: bold; margin: 0;">Tanggal dimulai : 31 Januari 2018, 15.30 PM</p>
@@ -125,10 +125,14 @@
                 <div class="col-7"></div>
               </div>
             </div>
-             </div>   
+             </div>
             </div>
           </div>
       </footer>
   	</div>
+    <script>
+      var headerHeight = document.querySelector(".bg_navbar").offsetHeight;
+      document.querySelector(".bg_sidebar").style = "top:" + headerHeight + "px";
+    </script>
   </body>
 </html>
