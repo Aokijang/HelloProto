@@ -128,6 +128,36 @@
                               </div>
                             </div>
                           </div>
+                          <div class="chat-cont">
+                            <div class="row">
+                              <div class="col-4"></div>
+                              <div class="col-8">
+                                 <div class="chat-text-cont" style="display: none;">
+                                  <div class="row">
+                                    <div class="col-10 text-me">
+                                      <div class="row">
+                                        <div class="col-12">
+                                          <h2>Kamu</h2>
+                                        </div>
+                                      </div>
+                                      <div class="row">
+                                        <div class="col-12">
+                                          <div class="chat-text text-me-border">
+                                            <p id="text"></p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-2">
+                                      <img src="css/profile.png" alt="">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                              </div>
+                              <div class="col-4"></div>
                         </div>
                       </div>
                     </div>
@@ -137,7 +167,21 @@
                           <input type="text" name="send-text" id="send-text" placeholder="Masukkan pesan anda disini...">
                         </div>
                         <div class="col-2">
-                          <input type="submit" name="send" id="send" value="Kirim">
+                          <input type="submit" name="send" id="send" value="Kirim" onclick="addChat()">
+                          <script type="text/javascript">
+                            function addChat(){
+                              var chat = document.getElementById("text");
+                              var text = document.getElementById("send-text").value;
+
+                              if(text.value == ""){
+                                alert("Ketikkan sebuah pesan untuk dikirim");
+                              }
+                              else{
+                                chat.value == text.value;
+                                document.querySelector(".chat-text-cont").style.display = "inline-block";
+                              }
+                            }
+                          </script>
                         </div>
                       </div>
                     </div>
