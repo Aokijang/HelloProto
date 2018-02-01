@@ -270,12 +270,10 @@
       var headerHeight = document.querySelector(".bg_navbar").offsetHeight;
       document.querySelector(".bg_sidebar").style = "top:" + headerHeight + "px";
 
-      var i;
-
       function footerChange() {
         var windowHeight = window.innerHeight;
-        i = document.querySelector(".content").style = "min-height:" + (windowHeight - headerHeight) + "px";
-        requestAnimationFrame(i);
+        document.querySelector(".content").style = "min-height:" + (windowHeight - headerHeight) + "px";
+        setTimeout(footerChange(), 5000);
       }
     </script>
   </body>

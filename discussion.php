@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="css/grid.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/Icons/font-awesome.css">
-    <script type="text/javascript">
+    <script>
       function addChat(){
         var chat = document.
         chat.style.display = "none";
@@ -23,7 +23,7 @@
       }
     </script>
   </head>
-  <body>
+  <body onresize="footerChange()" onload="footerLoad()">
   	<div class="container">
   		<div class="row">
   			<div class="col-12 bg_navbar">
@@ -234,8 +234,11 @@
       var headerHeight = document.querySelector(".bg_navbar").offsetHeight;
       document.querySelector(".bg_sidebar").style = "top:" + headerHeight + "px";
 
-      var windowHeight = window.innerHeight;
-      document.querySelector(".content").style = "min-height:" + (windowHeight - headerHeight) + "px";
+      function footerChange() {
+        var windowHeight = window.innerHeight;
+        document.querySelector(".content").style = "min-height:" + (windowHeight - headerHeight) + "px";
+        setTimeout(footerChange(), 5000);
+      }
     </script>
   </body>
 </html>
