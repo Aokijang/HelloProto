@@ -6,6 +6,22 @@
     <link rel="stylesheet" type="text/css" href="css/grid.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/Icons/font-awesome.css">
+    <script type="text/javascript">
+      function addChat(){
+        var chat = document.
+        chat.style.display = "none";
+        var text = document.getElementById("send-text").value;
+        chat.value = text.value;
+
+        if(text.value == ""){   
+          alert("Ketikkan sebuah pesan untuk dikirim");
+        }
+        else{
+          chat.value == text.value;
+          document.querySelector(".chat-text-cont2").style.display = "inline-block";
+        }
+      }
+    </script>
   </head>
   <body>
   	<div class="container">
@@ -132,7 +148,7 @@
                             <div class="row">
                               <div class="col-4"></div>
                               <div class="col-8">
-                                 <div class="chat-text-cont" style="display: none;">
+                                 <div class="chat-text-cont2" style="display: none;">
                                   <div class="row">
                                     <div class="col-10 text-me">
                                       <div class="row">
@@ -143,7 +159,7 @@
                                       <div class="row">
                                         <div class="col-12">
                                           <div class="chat-text text-me-border">
-                                            <p id="text"></p>
+                                            <place></place>
                                           </div>
                                         </div>
                                       </div>
@@ -162,26 +178,13 @@
                       </div>
                     </div>
                     <div class="row">
-                      <div class="chat-input">
+                      <div class="chat-input note-cont">
                         <div class="col-10">
                           <input type="text" name="send-text" id="send-text" placeholder="Masukkan pesan anda disini...">
                         </div>
                         <div class="col-2">
                           <input type="submit" name="send" id="send" value="Kirim" onclick="addChat()">
-                          <script type="text/javascript">
-                            function addChat(){
-                              var chat = document.getElementById("text");
-                              var text = document.getElementById("send-text").value;
-
-                              if(text.value == ""){
-                                alert("Ketikkan sebuah pesan untuk dikirim");
-                              }
-                              else{
-                                chat.value == text.value;
-                                document.querySelector(".chat-text-cont").style.display = "inline-block";
-                              }
-                            }
-                          </script>
+                          
                         </div>
                       </div>
                     </div>
