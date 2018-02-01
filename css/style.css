@@ -290,6 +290,7 @@ li.hover{
 	background: #dfdfdf;
 	margin-top: 15px;
 	padding: 15px;
+	overflow-y: hidden;
 }
 .text-me {
 	text-align: right;
