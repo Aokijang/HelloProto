@@ -55,7 +55,7 @@
                 <li><a href="guru.php"><i class="fa fa-home"></i> Home</a></li>
                 <li><a href="about_guru.php"><i class="fa fa-info-circle"></i> About</a></li>
                 <li><a href="help_guru.php"><i class="fa fa-question-circle-o"></i> Help</a></li>
-                <li><a href="inbox_guru.php"><i class="fa fa-group"></i> Class</a></li>
+                <li><a href="inbox_guru.php"><i class="fa fa-inbox"></i> Inbox</a></li>
                 <li><a href="note_guru.php"><i class="fa fa-bookmark-o"></i> Note</a></li>
                 <li><a href="assignment_guru.php"><i class="fa fa-flag-o"></i> Assignment</a></li>
                 <li class="hover"><a href="quiz_guru.php"><i class="fa fa-gamepad" style="color: white"></i> Quiz</a></li>
