@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/Icons/font-awesome.css">
   </head>
-  <body>
+  <body onresize="footerChange()" onload="footerChange()">
   	<div class="container">
   		<div class="row">
   			<div class="col-12 bg_navbar">
@@ -55,7 +55,7 @@
                 <li><a href="siswa.php"><i class="fa fa-home"></i> Home</a></li>
                 <li><a href="about.php"><i class="fa fa-info-circle"></i> About</a></li>
                 <li><a href="help.php"><i class="fa fa-question-circle-o"></i> Help</a></li>
-                <li><a href="inbox.php"><i class="fa fa-group"></i> Inbox</a></li>
+                <li><a href="inbox.php"><i class="fa fa-inbox"></i> Inbox</a></li>
                 <li><a href="note.php"><i class="fa fa-bookmark-o"></i> Note</a></li>
                 <li><a href="assignment.php"><i class="fa fa-flag-o"></i> Assignment</a></li>
                 <li class="hover"><a href="quiz.php"><i class="fa fa-gamepad" style="color: white"></i> Quiz</a></li>
@@ -172,8 +172,11 @@
       var headerHeight = document.querySelector(".bg_navbar").offsetHeight;
       document.querySelector(".bg_sidebar").style = "top:" + headerHeight + "px";
 
-      var windowHeight = window.innerHeight;
-      document.querySelector(".content").style = "min-height:" + (windowHeight - headerHeight) + "px";
+      function footerChange() {
+        var windowHeight = window.innerHeight;
+        document.querySelector(".content").style = "min-height:" + (windowHeight - headerHeight) + "px";
+        setTimeout(footerChange(), 5000);
+      }
     </script>
   </body>
 </html>

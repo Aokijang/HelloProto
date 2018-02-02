@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/Icons/font-awesome.css">
   </head>
-  <body>
+  <body onload="footerChange()" onresize="footerChange()">
   	<div class="container">
   		<div class="row">
   			<div class="col-12 bg_navbar">

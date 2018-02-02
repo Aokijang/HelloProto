@@ -54,7 +54,7 @@
                 <li class="hover"><a href="siswa.php"><i class="fa fa-home"></i> Home</a></li>
                 <li><a href="about.php"><i class="fa fa-info-circle"></i> About</a></li>
                 <li><a href="help.php"><i class="fa fa-question-circle-o"></i> Help</a></li>
-                <li><a href="inbox.php"><i class="fa fa-group"></i> Inbox</a></li>
+                <li><a href="inbox.php"><i class="fa fa-inbox"></i> Inbox</a></li>
                 <li><a href="note.php"><i class="fa fa-bookmark-o"></i> Note</a></li>
                 <li><a href="assignment.php"><i class="fa fa-flag-o"></i> Assignment</a></li>
                 <li><a href="quiz.php"><i class="fa fa-gamepad" style="color: white"></i> Quiz</a></li>
@@ -267,15 +267,13 @@
       </footer>
   	</div>
     <script>
-      var headerHeight = document.querySelector(".bg_navbar").offsetHeight;
-      document.querySelector(".bg_sidebar").style = "top:" + headerHeight + "px";
-
-      var i;
+    var headerHeight = document.querySelector(".bg_navbar").offsetHeight;
+    document.querySelector(".bg_sidebar").style = "top:" + headerHeight + "px";
 
       function footerChange() {
         var windowHeight = window.innerHeight;
-        i = document.querySelector(".content").style = "min-height:" + (windowHeight - headerHeight) + "px";
-        requestAnimationFrame(i);
+        document.querySelector(".content").style = "min-height:" + (windowHeight - headerHeight) + "px";
+        setTimeout(footerChange(), 5000);
       }
     </script>
   </body>

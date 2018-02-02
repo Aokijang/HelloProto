@@ -30,14 +30,14 @@
   					<div class="col-6 nav-bar">
               <div class="row">
                 <div class="col-11 username">
-                  <p>Hansen Artajaya</p>
+                  <p>Vanestica Ireline</p>
                   <div class="logout">
                     <a class="keluarout" href="index.php">Keluar</a>
                   </div>
 
                 </div>
                 <div class="col-1 logo" style="text-align:right">
-                  <img src="css/profile2.jpg">
+                  <img src="css/profile3.png">
                 </div>
 
 
@@ -52,15 +52,15 @@
           <div class="row">
             <div class="col-2 bg_sidebar">
               <ul class="navbar">
-                <li><a href="ortu.php"><i class="fa fa-home"></i> Home</a></li>
-                <li><a href="about_ortu.php"><i class="fa fa-info-circle"></i> About</a></li>
-                <li><a href="help_ortu.php"><i class="fa fa-question-circle-o"></i> Help</a></li>
-                <li class="hover"><a href="class_ortu.php"><i class="fa fa-group"></i> Class</a></li>
-                <li><a href="note_ortu.php"><i class="fa fa-bookmark-o"></i> Note</a></li>
-                <li><a href="assignment_ortu.php"><i class="fa fa-flag-o"></i> Assignment</a></li>
-                <li><a href="quiz_ortu.php"><i class="fa fa-gamepad" style="color: white"></i> Quiz</a></li>
-                <li><a href="discussion_ortu.php"><i class="fa fa-comments" style="color: white"></i> Discussion</a></li>
-                <li><a href="task_ortu.php"><i class="fa fa-pencil" style="color: white"></i> Task List</a></li>
+                <li><a href="guru.php"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="about_guru.php"><i class="fa fa-info-circle"></i> About</a></li>
+                <li><a href="help_guru.php"><i class="fa fa-question-circle-o"></i> Help</a></li>
+                <li class="hover"><a href="inbox_guru.php"><i class="fa fa-group"></i> Class</a></li>
+                <li><a href="note_guru.php"><i class="fa fa-bookmark-o"></i> Note</a></li>
+                <li><a href="assignment_guru.php"><i class="fa fa-flag-o"></i> Assignment</a></li>
+                <li><a href="quiz_guru.php"><i class="fa fa-gamepad" style="color: white"></i> Quiz</a></li>
+                <li><a href="discussion_guru.php"><i class="fa fa-comments" style="color: white"></i> Discussion</a></li>
+                <li><a href="task_guru.php"><i class="fa fa-pencil" style="color: white"></i> Task List</a></li>
               </ul>
             </div>
             <div class="col-12 content">
@@ -160,48 +160,37 @@
       </div>
       <footer>
         <div class="row">
-          <div class="col-2"></div>
-          <div class="col-10">
+          <div class="col-5 repad">
             <div class="row">
-              <div class="col-5 repad">
-                <div class="row">
-                  <div class="col-12">
-                    <p>Have any tips for us? Click this button.</p>
-                      <div class="row">
-                       <div class="col-12">
-                        <a href="#">Ideas and Tips</a>
-                       </div>
-                      </div>
-                      <div class="row" id="footer-menu-container">
-                        <div class="col-3 footer-menu">
-                          FAQ
-                        </div>
-                        <div class="col-3 footer-menu">
-                          About Us
-                        </div>
-                        <div class="col-3 footer-menu">
-                          Contact Us
-                        </div>
-                        <div class="col-3"></div>
-                      </div>
-                  </div>
-                <div class="col-7"></div>
+              <div class="col-12">
+                <p>Have any tips for us? Click this button.</p>
               </div>
             </div>
-             </div>
+            <div class="row">
+              <div class="col-12">
+                <a href="#">Ideas and Tips</a>
+              </div>
+            </div>
+            <div class="row" id="footer-menu-container">
+              <div class="col-3 footer-menu">
+                FAQ
+              </div>
+              <div class="col-3 footer-menu">
+                About Us
+              </div>
+              <div class="col-3 footer-menu">
+                Contact Us
+              </div>
+              <div class="col-3"></div>
             </div>
           </div>
+          <div class="col-7"></div>
+        </div>
       </footer>
   	</div>
     <script>
       var headerHeight = document.querySelector(".bg_navbar").offsetHeight;
       document.querySelector(".bg_sidebar").style = "top:" + headerHeight + "px";
-
-      function footerChange() {
-        var windowHeight = window.innerHeight;
-        document.querySelector(".content").style = "min-height:" + (windowHeight - headerHeight) + "px";
-        setTimeout(footerChange(), 5000);
-      }
     </script>
   </body>
 </html>
