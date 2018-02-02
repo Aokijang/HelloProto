@@ -267,8 +267,8 @@
       </footer>
   	</div>
     <script>
-      var headerHeight = document.querySelector(".bg_navbar").offsetHeight;
-      document.querySelector(".bg_sidebar").style = "top:" + headerHeight + "px";
+    var headerHeight = document.querySelector(".bg_navbar").offsetHeight;
+    document.querySelector(".bg_sidebar").style = "top:" + headerHeight + "px";
 
       function footerChange() {
         var windowHeight = window.innerHeight;
