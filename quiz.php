@@ -55,7 +55,7 @@
                 <li><a href="siswa.php"><i class="fa fa-home"></i> Home</a></li>
                 <li><a href="about.php"><i class="fa fa-info-circle"></i> About</a></li>
                 <li><a href="help.php"><i class="fa fa-question-circle-o"></i> Help</a></li>
-                <li><a href="class.php"><i class="fa fa-group"></i> Class</a></li>
+                <li><a href="inbox.php"><i class="fa fa-group"></i> Class</a></li>
                 <li><a href="note.php"><i class="fa fa-bookmark-o"></i> Note</a></li>
                 <li><a href="assignment.php"><i class="fa fa-flag-o"></i> Assignment</a></li>
                 <li class="hover"><a href="quiz.php"><i class="fa fa-gamepad" style="color: white"></i> Quiz</a></li>
