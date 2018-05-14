@@ -67,15 +67,17 @@
               <div class="row">
                 <div class="col-12">
                   <div class="text-cont">
-                    <h1 class="title-text">Class</h1>
+                    <h1 class="title-text">Inbox</h1>
                     <div class="other-text-cont class-cont class-effect">
-                      <h2 class="class-title">X TKJ 1</h2>
+                      <h2 class="class-title"></h2>
                       <div class="class-content">
                         <div class="row">
                           <div class="col-2">
                             <img src="css/class.jpg" alt="class_demo">
                           </div>
                           <div class="col-8">
+                            <h3 class="title_inbox">[Nama Guru]</h3>
+                            <h6 class="title_inbox">22 Oktober 2017</h6>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                           </div>
                         </div>
@@ -83,69 +85,15 @@
                     </div>
                     <br>
                     <div class="other-text-cont class-cont class-effect">
-                      <h2 class="class-title">X TKJ 2</h2>
+                      <h2 class="class-title"></h2>
                       <div class="class-content">
                         <div class="row">
                           <div class="col-2">
                             <img src="css/class.jpg" alt="class_demo">
                           </div>
                           <div class="col-8">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <br>
-                    <div class="other-text-cont class-cont class-effect">
-                      <h2 class="class-title">X AK 1</h2>
-                      <div class="class-content">
-                        <div class="row">
-                          <div class="col-2">
-                            <img src="css/class.jpg" alt="class_demo">
-                          </div>
-                          <div class="col-8">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <br>
-                    <div class="other-text-cont class-cont class-effect">
-                      <h2 class="class-title">X AK 2</h2>
-                      <div class="class-content">
-                        <div class="row">
-                          <div class="col-2">
-                            <img src="css/class.jpg" alt="class_demo">
-                          </div>
-                          <div class="col-8">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <br>
-                    <div class="other-text-cont class-cont class-effect">
-                      <h2 class="class-title">X AK 3</h2>
-                      <div class="class-content">
-                        <div class="row">
-                          <div class="col-2">
-                            <img src="css/class.jpg" alt="class_demo">
-                          </div>
-                          <div class="col-8">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <br>
-                    <div class="other-text-cont class-cont class-effect">
-                      <h2 class="class-title">X PM</h2>
-                      <div class="class-content">
-                        <div class="row">
-                          <div class="col-2">
-                            <img src="css/class.jpg" alt="class_demo">
-                          </div>
-                          <div class="col-8">
+                            <h3 class="title_inbox">[Nama Guru]</h3>
+                            <h6 class="title_inbox">24 Oktober 2017</h6>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                           </div>
                         </div>

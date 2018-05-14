@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="css/grid.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/Icons/font-awesome.css">
+    <script src="jquery-3.2.1.js"></script>
   </head>
   <body onload="footerChange()" onresize="footerChange()">
   	<div class="container">
@@ -55,7 +56,7 @@
                 <li><a href="ortu.php"><i class="fa fa-home"></i> Home</a></li>
                 <li><a href="about_ortu.php"><i class="fa fa-info-circle"></i> About</a></li>
                 <li><a href="help_ortu.php"><i class="fa fa-question-circle-o"></i> Help</a></li>
-                <li><a href="inbox_ortu.php"><i class="fa fa-group"></i> Class</a></li>
+                <li><a href="inbox_ortu.php"><i class="fa fa-inbox"></i> Inbox</a></li>
                 <li><a href="note_ortu.php"><i class="fa fa-bookmark-o"></i> Note</a></li>
                 <li><a href="assignment_ortu.php"><i class="fa fa-flag-o"></i> Assignment</a></li>
                 <li><a href="quiz_ortu.php"><i class="fa fa-gamepad" style="color: white"></i> Quiz</a></li>

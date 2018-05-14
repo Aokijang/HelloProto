@@ -447,3 +447,10 @@ input#myInput {
 .help-cont li {
 	font-size: 1.4em;
 }
+h3.title_inbox{
+	margin: 0 0 10px 0;
+}
+h6.title_inbox{
+	font-weight: 100;
+	margin: 0;
+}

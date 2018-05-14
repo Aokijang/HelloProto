@@ -52,8 +52,8 @@
                 <li><a href="siswa.php"><i class="fa fa-home"></i> Home</a></li>
                 <li><a href="about.php"><i class="fa fa-info-circle"></i> About</a></li>
                 <li><a href="help.php"><i class="fa fa-question-circle-o"></i> Help</a></li>
-                <li class="hover"><a href="note.php"><i class="fa fa-inbox"></i> Inbox</a></li>
-                <li><a href="note.php"><i class="fa fa-bookmark-o"></i> Note</a></li>
+                <li><a href="inbox.php"><i class="fa fa-inbox"></i> Inbox</a></li>
+                <li class="hover"><a href="note.php"><i class="fa fa-bookmark-o"></i> Note</a></li>
                 <li><a href="assignment.php"><i class="fa fa-flag-o"></i> Assignment</a></li>
                 <li><a href="quiz.php"><i class="fa fa-gamepad" style="color: white"></i> Quiz</a></li>
                 <li><a href="discussion.php"><i class="fa fa-comments" style="color: white"></i> Discussion</a></li>
@@ -83,6 +83,82 @@
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="row">
+                <div class="col-12">
+                  <div class="other-text-cont note-cont">
+                    <h1 class="title-text">Task List</h1>
+                    <div class="row">
+                      <div id="myDIV" class="header">
+                        <input type="text" id="myInput" placeholder="Title...">
+                        <button onclick="newElement()" class="addBtn">Add</button>
+                      </div>
+
+                            <ul id="myUL">
+                              <li id="LI" style="display: none;"></li>
+                            </ul>
+
+                            <script>
+                            var myNodelist = document.getElementById("LI");
+                            var i;
+                            for (i = 0; i < myNodelist.length; i++) {
+                              var span = document.createElement("SPAN");
+                              var txt = document.createTextNode("\u00D7");
+                              span.className = "close";
+                              span.appendChild(txt);
+                              myNodelist[i].appendChild(span);
+                            }
+
+                            var close = document.getElementsByClassName("close");
+                            var i;
+                            for (i = 0; i < close.length; i++) {
+                              close[i].onclick = function() {
+                                var div = this.parentElement;
+                                div.style.display = "none";
+                              }
+                            }
+
+                            var list = document.querySelector('#myUL');
+                            list.addEventListener('click', function(ev) {
+                              if (ev.target.tagName === 'LI') {
+                                ev.target.classList.toggle('checked');
+                              }
+                            }, false);
+
+                            function newElement() {
+                              var li = document.createElement("li");
+                              var inputValue = document.getElementById("myInput").value;
+                              var t = document.createTextNode(inputValue);
+                              li.appendChild(t);
+                              if (inputValue === '') {
+                                alert("Tuliskan task yang diinginkan.");
+                              } else {
+                                document.getElementById("myUL").appendChild(li);
+                              }
+                              document.getElementById("myInput").value = "";
+
+                              var span = document.createElement("SPAN");
+                              var txt = document.createTextNode("\u00D7");
+                              span.className = "close";
+                              span.appendChild(txt);
+                              li.appendChild(span);
+
+                              for (i = 0; i < close.length; i++) {
+                                close[i].onclick = function() {
+                                  var div = this.parentElement;
+                                  div.style.display = "none";
+                                }
+                              }
+                          }
+                          </script>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
               </div>
             </div>
           </div>
